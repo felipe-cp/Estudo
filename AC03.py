@@ -11,8 +11,6 @@ from random import randint
 ###############################################################################################################################################
 # Escolhi usar o Google Sheets por curiosidade e foi uma boa experiência para aprender um pouco sobre as APIs do Google.
 # O arquivo JSON é a chave gerada para que possam ser realizadas alterações através do Python na planilha. 
-# A pasta deve conter os arquivos AC03.py e py-sheets-275514-96fea579be18.json
-# Para rodar o código é preciso alterar o caminho da pasta na linha 32.
 # Link da planilha com os resultados: https://docs.google.com/spreadsheets/d/1YqBmA3ibRtJra9YuyGijX8S1DFAWm-KlrUlkrZ9Mmf4/
 import gspread   # -> pip install gspread oauth2client
 from oauth2client.service_account import ServiceAccountCredentials
@@ -250,7 +248,3 @@ n = 1000000
 n1000000(n,soma)
 n = 10000000         
 n10000000(n,soma)
-# Conclusão: 
-# Notamos que o buble sort costuma ser algoritmo mais lento e o counting sort o mais rápido.
-# Com valores menores conseguimos fazer varias simulações. A partir de N = 100000, percebemos que pode demorar bastante no buble sort e insertion sort
-# O desenvolvimento desse exercicio foi muito interessante e ajudou bastante a endender outros conceitos onde estavamos com dificuldade e que são fundamentais na disciplina.
